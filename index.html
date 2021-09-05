@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <!-- Titulo -->
+        <h1 id="title">Titulo</h1>
+        <hr />
+        <!-- Parrafo -->
+        <p id="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+            blanditiis voluptatem? Eligendi pariatur porro accusamus tenetur
+            officiis repudiandae suscipit tempora deleniti fuga perspiciatis.
+            Vero molestiae natus, aspernatur vel nobis molestias!
+        </p>
+        <hr />
+        <!-- Formulario -->
+        <form id="survey-form" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label id="name-label" for="name">Nombre:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="user_name"
+                        placeholder="Nombre"
+                    />
+                </li>
+                <li>
+                    <label id="email-label" for="email"
+                        >Correo electrónico:</label
+                    >
+                    <input
+                        type="email"
+                        id="email"
+                        name="user_mail"
+                        placeholder="Email"
+                    />
+                </li>
+                <li>
+                    <label id="number-label" for="number">Age</label>
+                    <input
+                        type="number"
+                        name="age"
+                        id="number"
+                        min="10"
+                        max="99"
+                        class="form-control"
+                        placeholder="Age"
+                    />
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
