@@ -4,11 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
         <title>Survey Form</title>
     </head>
-    <body>
+
+    <body id="main">
         <!-- Titulo -->
-        <h1 id="title">Titulo</h1>
+        <h1 id="title">Survey Form</h1>
         <hr />
         <!-- Parrafo -->
         <p id="description">
@@ -25,6 +27,7 @@
                     <label id="name-label" for="name">Nombre:</label>
                     <input
                         type="text"
+                        required
                         id="name"
                         name="user_name"
                         placeholder="Nombre"
@@ -36,6 +39,7 @@
                     >
                     <input
                         type="email"
+                        required
                         id="email"
                         name="user_mail"
                         placeholder="Email"
@@ -53,7 +57,43 @@
                         placeholder="Age"
                     />
                 </li>
+                <li>
+                    <textarea
+                        id="comments"
+                        class="input-textarea"
+                        name="comment"
+                        placeholder="Enter your comment here..."
+                    ></textarea>
+                </li>
             </ul>
+            <h2>Lorem Lorem Lorem Lorem Lorem</h2>
+            <select id="dropdown" name="future">
+                <option value="Money">Learn</option>
+                <option value="Hobby">Learn</option>
+                <option value="Learn">Learn</option>
+            </select>
+            <h3>Lorem Lorem Lorem Lorem Lorem</h3>
+            <input
+                type="radio"
+                name="boring"
+                id="boring"
+                value="thanksforgelping"
+            />
+            <label for="boring">Lorem 1</label>
+            <input type="radio" name="boring" id="love" value="whatever" />
+            <label for="love">Lorem 2</label>
+            <input type="radio" name="drive" id="passiondrive" value="noice" />
+            <label for="passiondrive">Lorem 3</label>
+            <input type="radio" name="drive" id="haga" value="whatever" />
+            <label for="moneydrive">Lorem 4</label>
+            <h4>Lorem Lorem Lorem Lorem</h4>
+            <input type="checkbox" value="nice" id="boring1" />
+            <label for="boring">Lorem 1</label>
+            <input type="checkbox" value="nice" id="interesting1" />
+            <label for="interesting ">Lorem 2</label>
+            <input type="checkbox" value="nice" id="tool" />
+            <label for="tool">Lorem 3 </label>
+            <input type="submit" id="submit" />
         </form>
     </body>
 </html>
