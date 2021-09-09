@@ -7,3 +7,9 @@
     text-align: center;
     background: rgb(114, 113, 113);
 }
+
+#survey-form {
+    background: white;
+    border-radius: 2%;
+    padding: 2%;
+}
