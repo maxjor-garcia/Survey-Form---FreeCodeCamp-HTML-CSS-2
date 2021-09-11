@@ -1,11 +1,12 @@
 #main {
+    font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgb(114, 113, 113);
+    background: rgb(177, 175, 175);
 }
 
 #survey-form {
